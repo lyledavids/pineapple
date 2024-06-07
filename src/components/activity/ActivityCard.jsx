@@ -35,7 +35,7 @@ function ActivityCard() {
               <div className={styles.feedDetails}>
                 <h3 className={styles.feedAuthor}>{shortenAdd(addressFrom)} to {shortenAdd(addressTo)}</h3>
                 <span className={styles.feedCreatedAt}>{timestamp} ago</span>
-                <p className={styles.feedBody}>{amount} CANTO | {message}</p>
+                <p className={styles.feedBody}>{amount} XCR | {message}</p>
               </div>
             </div>
           ))}
